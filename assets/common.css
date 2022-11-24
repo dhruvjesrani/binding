@@ -1,3 +1,159 @@
-body {
-    color: red;
+:root {
+    --base: 16px;
+    --heading: calc(var(--base) * 2);
+    --heading-font:'Red Hat Mono', monospace;
+    --body-font: 'Avenir', sans-serif;
+    
+    --intro-color: #F8F7F3;
+    --first-entry-color: #ffd154;
+    --second-entry-color: #292929;
+    --third-entry-color: #FFA463;
+
+    font-size: var(--base);
+
 }
+
+.navigation {
+    display: none;
+}
+
+.colophone {
+    font-size: calc( var(--base) / 1.27 );
+    font-family: var(--body-font);
+    width: auto;
+    background-color: var(--intro-color);
+    padding: calc(var(--base) * 1.5 );
+    padding-left: var(--base);
+}
+
+.introduction-title {
+    display: none;
+}
+
+
+@media (min-width: 600px) {
+    :root {
+        --base: 20px;
+    }
+
+    .web-body {
+        display: flex;
+    }
+
+    .navigation {
+        display: block;
+        max-width: 350px;
+        font-family: var(--heading-font);
+    }
+
+    .introduction {
+        display: none;
+    }
+
+    .top-sticky-intro {
+        display: none;
+    }
+
+    .introduction-nav {
+        padding: calc(var(--base) * 3) ;
+        padding-top: calc( var(--base) *2);
+        padding-bottom: calc( var(--base) *2);
+        background-color: var(--intro-color);
+    }
+
+
+    .entry-1-nav {
+        padding: calc(var(--base) * 3) ;
+        padding-top: calc( var(--base) *2);
+        padding-bottom: calc( var(--base) *2);
+        background-color: var(--first-entry-color);
+    }
+
+    .entry-2-nav {
+        padding: calc(var(--base) * 3) ;
+        padding-top: calc( var(--base) *2);
+        padding-bottom: calc( var(--base) *2);
+        background-color: var(--second-entry-color);
+        color: #F8F7F3;
+    }
+
+    .entry-3-nav {
+        padding: calc(var(--base) * 3) ;
+        padding-top: calc( var(--base) *2);
+        padding-bottom: calc( var(--base) *2);
+        background-color: var(--third-entry-color);
+    }
+
+    .colophone {
+        padding: calc(var(--base) * 3) ;
+        padding-top: calc( var(--base) *2);
+        padding-bottom: calc( var(--base) *2);
+    }
+
+    .introduction-title {
+        display: block;
+        padding: calc(var(--base)*3);
+        background-color: var(--intro-color);
+        font-family: var(--heading-font);
+        font-size: var(--heading);
+        margin-bottom: 2ch;
+        padding-left: 2ch;
+        padding-right: 15ch;
+    }
+
+    .main-copy {
+        border: solid 50px;
+        border-top: solid 20px ;
+        border-bottom: solid 20px ;
+        border-color: var(--intro-color);
+        max-width: 1164px;
+    }
+
+    p {
+        padding-left: 3ch;
+        padding-right: 20ch;
+    }
+
+    blockquote {
+        padding: calc( var(--base) * 2.5 );
+        margin-top: 2ch;
+        margin-bottom: 2ch;
+        padding-right: 20ch ;
+        font-family: var(--heading-font) ;
+        background-color: var(--in);
+    }
+
+}
+
+
+.top-sticky-intro {
+    position: sticky;
+    top: 0;
+    width: auto;
+    height: calc( var(--base) * 5);
+    background-color: var(--intro-color);
+}
+
+.introduction {
+    background-color: var(--intro-color);
+    padding: var(--base);
+    font-family: var(--heading-font);
+}
+
+h1{
+    font-size: var(--heading);
+
+    font-family: var(--heading-font);
+    font-weight: 500;
+}
+
+p {
+    font-family: var(--body-font);
+    margin: var(--base);
+}
+
+a p {
+    color: green;
+    text-decoration: underline;
+}
+

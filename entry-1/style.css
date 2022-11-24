@@ -1,3 +1,26 @@
-body {
-    color: blue;
+
+.introduction {
+    background-color: var(--first-entry-color);
+}
+
+
+.top-sticky-intro {
+    background-color: var(--first-entry-color);
+}
+
+
+blockquote {
+    background-color: var(--first-entry-color);
+}
+
+.introduction-title {
+    background-color: var(--first-entry-color);
+}
+
+.main-copy {
+    border-color: var(--first-entry-color);
+}
+
+.colophone {
+    background-color: var(--first-entry-color);
 }
