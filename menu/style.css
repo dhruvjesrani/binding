@@ -1,0 +1,44 @@
+/* .website-name {
+    font-family: var(--body-font);
+    font-size: calc( var(--base) *1.5) ;
+    padding: calc(var(--base)*3) ;
+    font-weight: 500;
+
+} */
+
+
+
+.menu-items {
+    height: auto ;
+    font-weight: 400;
+    font-family: var(--heading-font) ;
+
+}
+
+.ent-1 {
+    padding: calc(var(--base)*3.5) ;
+    background-color: var(--intro-color) ;
+    padding-left:calc(var(--base)*2.5)  ;
+
+}
+.ent-2 {
+    padding: calc(var(--base)*3.5) ;
+    background-color: var(--first-entry-color) ;
+    padding-left:calc(var(--base)*2.5)  ;
+
+}
+
+.ent-3 {
+    padding: calc(var(--base)*3.5) ;
+    background-color: var(--second-entry-color) ;
+    color: #F8F7F3;
+    padding-left:calc(var(--base)*2.5)  ;
+
+}
+
+.ent-4 {
+    padding: calc(var(--base)*3.5) ;
+    background-color: var(--third-entry-color) ;
+    padding-left:calc(var(--base)*2.5)  ;
+
+}

@@ -1,0 +1,33 @@
+
+.introduction {
+    background-color: var(--second-entry-color);
+}
+
+
+.top-sticky-intro {
+    background-color: var(--second-entry-color);
+}
+
+
+blockquote {
+    background-color: var(--second-entry-color);
+    color: #F8F7F3;
+}
+
+.introduction-title {
+    background-color: var(--second-entry-color);
+    color: #F8F7F3;
+}
+
+.main-copy {
+    border-color: var(--second-entry-color);
+}
+
+.colophone {
+    background-color: var(--second-entry-color);
+    color: #F8F7F3;
+}
+
+h1, .metadata {
+    color: #F8F7F3 ;
+}

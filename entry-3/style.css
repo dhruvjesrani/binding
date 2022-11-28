@@ -1,0 +1,26 @@
+
+.introduction {
+    background-color: var(--third-entry-color);
+}
+
+
+.top-sticky-intro {
+    background-color: var(--third-entry-color);
+}
+
+
+blockquote {
+    background-color: var(--third-entry-color);
+}
+
+.introduction-title {
+    background-color: var(--third-entry-color);
+}
+
+.main-copy {
+    border-color: var(--third-entry-color);
+}
+
+.colophone {
+    background-color: var(--third-entry-color);
+}
